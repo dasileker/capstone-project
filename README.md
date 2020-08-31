@@ -13,8 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mohapakram/games-store/177c1991b34865f4becff2991075b6be2c22b280/index.html)
-
+[Live Demo Link](
 ## Getting Started
 
 Just clone the project and open `index.html` file in chrome.
@@ -25,7 +24,7 @@ Just clone the project and open `index.html` file in chrome.
 
 - Github: [@dasileker](https://github.com/dasileker)
 - Twitter: [@zerradi](https://twitter.com/zerradi)
-- Linkedin: [mohapakram](https://www.linkedin.com/in/mohab-akram-667093131)
+- Linkedin: [zerradi](https://www.linkedin.com/in/dasileker)
 
 ## Design 
 
