@@ -2,7 +2,7 @@
 
 > This is my capstone project which is an online shop .
 
-![screenshot](./app_screenshot.png)
+![screenshot](./)
 
 Additional description about the project and its features.
 
@@ -23,8 +23,8 @@ Just clone the project and open `index.html` file in chrome.
 
 👤 **Author1**
 
-- Github: [@mohabakram](https://github.com/mohabakram)
-- Twitter: [@mohapakram](https://twitter.com/mohapakram)
+- Github: [@dasileker](https://github.com/dasileker)
+- Twitter: [@zerradi](https://twitter.com/zerradi)
 - Linkedin: [mohapakram](https://www.linkedin.com/in/mohab-akram-667093131)
 
 ## Design 
