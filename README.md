@@ -1,4 +1,4 @@
-# Gray Games Shop
+# Capstone Project for Microverse about Games Shop
 
 > This is my capstone project which is an online shop .
 
