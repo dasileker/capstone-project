@@ -267,6 +267,7 @@ table {
 .products-grid article div * {
   margin: 5px 0;
 }
+
 .products-grid article div button {
   padding: 1em 1.5em;
   border: none;
@@ -277,6 +278,7 @@ table {
   padding: 5px 10px;
   border: 1px solid #88888869;
 }
+
 .products-grid article div span {
   color: #d35266;
 }
