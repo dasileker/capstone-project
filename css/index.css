@@ -282,6 +282,7 @@ table {
 .products-grid article div span {
   color: #d35266;
 }
+
 .products-grid > span:first-of-type {
   left: -5%;
 }
