@@ -286,9 +286,11 @@ table {
 .products-grid > span:first-of-type {
   left: -5%;
 }
+
 .products-grid > span:last-of-type {
   right: -5%;
 }
+
 body {
   background-color: #fafbfb;
   font-size: 14px;
@@ -298,6 +300,7 @@ body {
   color: #888;
   line-height: 1.4em;
 }
+
 @media screen and (max-width: 992px) {
   body {
     font-size: 12px;
