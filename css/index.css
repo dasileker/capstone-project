@@ -109,10 +109,12 @@ ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote::before,
 blockquote::after,
 q::before,
@@ -201,10 +203,12 @@ table {
 .grid-container {
   display: grid;
 }
+
 .products-show {
   padding: 5px 25px;
   margin: 0 auto;
 }
+
 .products-show h2 {
   border-bottom: 1px solid #88888869;
   font-weight: normal;
