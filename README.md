@@ -1,53 +1,38 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Gray Games Shop
 
-# News-Week
+> This is my capstone project which is an online shop .
 
-> This project is a mock-up page of the Newsweek website.
+![screenshot](./app_screenshot.png)
 
-![screenshot](./images/screenshot.png)
-
-This project uses the bootstrap framework to build a replica of the newsweek site.
+Additional description about the project and its features.
 
 ## Built With
 
-- Bootstrap
-- CSS
 - HTML
-- Favicon
-- Font Awesome
+- CSS (LESS)
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/enkog/News-Week/develop/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mohapakram/games-store/177c1991b34865f4becff2991075b6be2c22b280/index.html)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-Webbrowser and access to internet
-
-### Install
-
-1) Clone the repository to your machine;
-
-### Usage
-
-Just navigate through the page the only functioning part of the project is the video player
+Just clone the project and open `index.html` file in chrome.
 
 ## Authors
 
-👤 **Nkiruka Awotoruvie**
+👤 **Author1**
 
-- Github: [@enkog](https://github.com/enkog)
-- Twitter: [@enkodes](https://twitter.com/enkodes)
+- Github: [@mohabakram](https://github.com/mohabakram)
+- Twitter: [@mohapakram](https://twitter.com/mohapakram)
+- Linkedin: [mohapakram](https://www.linkedin.com/in/mohab-akram-667093131)
 
-👤 **Zerradi Amine**
+## Design 
 
-- Github: [@dasileker](https://github.com/dasileker)
-- Twitter: [@zerradi](https://twitter.com/zerradi)
-- Linkedin: [zerradi Amine](https://linkedin.com/zerradi amine)
+Check it on [behance](https://www.behance.net/gallery/24796463/ZATTIX).
+
+
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
 ## 🤝 Contributing
 
