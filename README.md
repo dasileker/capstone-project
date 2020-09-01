@@ -2,7 +2,7 @@
 
 > This is my capstone project which is an online E-Game shop .
 
-![screenshot](img\screentshot.png)
+![screenshot](./img/screentshot.png)
 
 Additional description about the project and its features.
 
