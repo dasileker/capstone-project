@@ -275,6 +275,11 @@ h2 {
   background-color: white;
 }
 
+footer img {
+  height: 60px;
+  margin: 0 auto;
+}
+
 .search-text img {
   height: 100px;
 }
@@ -295,6 +300,11 @@ h2 {
 .products-grid article > h3,
 .products-grid article > span {
   margin: 5px 15px;
+}
+
+footer > div {
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 15px 10%;
 }
 
 .text-alignment > div {
@@ -638,6 +648,10 @@ header #profile-image-container img {
   }
 }
 
+#hot-ads > div a {
+  color: #d35266;
+}
+
 .search#search .search-container > a {
   border: none;
   outline: none;
@@ -657,6 +671,20 @@ header #profile-image-container img {
   outline: none;
   transition: all 0.5s ease-out;
   text-transform: capitalize;
+}
+
+#hot-ads > div button:hover {
+  background-color: white;
+  color: #d35266;
+}
+
+#hot-ads > div button:first-of-type {
+  border-radius: 15px 0 0 15px;
+}
+
+#hot-ads > div button:last-of-type {
+  margin: 0 0 0 -3px;
+  border-radius: 0 15px 15px 0;
 }
 
 .search#search .search-container > button {
@@ -829,24 +857,6 @@ header #profile-image-container img {
   }
 }
 
-#hot-ads > div button:hover {
-  background-color: white;
-  color: #d35266;
-}
-
-#hot-ads > div button:first-of-type {
-  border-radius: 15px 0 0 15px;
-}
-
-#hot-ads > div button:last-of-type {
-  margin: 0 0 0 -3px;
-  border-radius: 0 15px 15px 0;
-}
-
-#hot-ads > div a {
-  color: #d35266;
-}
-
 #hot-ads > div::after {
   width: 50px;
   height: 50px;
@@ -867,6 +877,7 @@ header #profile-image-container img {
     display: none;
   }
 }
+
 #hot-ads > div::before {
   width: 50px;
   height: 50px;
@@ -892,11 +903,6 @@ footer {
   border: 1px solid #88888869;
 }
 
-footer > div {
-  grid-template-columns: 2fr 1fr 1fr;
-  padding: 15px 10%;
-}
-
 @media screen and (max-width: 768px) {
   footer > div {
     grid-template-columns: 1fr;
@@ -910,11 +916,6 @@ footer .copy-rights {
 
 footer .copy-rights p {
   text-align: left;
-}
-
-footer img {
-  height: 60px;
-  margin: 0 auto;
 }
 
 footer .categories h2 {
@@ -957,7 +958,7 @@ footer .categories > div a {
   gap: 25px;
 }
 
-#results-page main > divhover {
+#results-page main > div:hover {
   background-color: white;
 }
 
