@@ -1,6 +1,6 @@
-# Capstone Project for Microverse about Games Shop
+# Capstone Project for Microverse about E-Games Shop
 
-> This is my capstone project which is an online shop .
+> This is my capstone project which is an online E-Game shop .
 
 ![screenshot](img\screentshot.png)
 
