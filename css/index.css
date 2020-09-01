@@ -511,14 +511,24 @@ header nav img#logo {
   }
 }
 
+aside ul {
+  padding: 15px;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
 }
 
+footer .categories > div a {
+  color: #888;
+  margin: 2px 0;
+}
+
 header nav ul li:hover a,
 header nav ul li:hover i {
   color: #d35266;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -673,6 +683,19 @@ header #profile-image-container img {
   text-transform: capitalize;
 }
 
+#results-page main > div button {
+  background-color: #d35266;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease-out;
+  text-transform: capitalize;
+  float: right;
+  margin: 5px;
+}
+
 #hot-ads > div button:hover {
   background-color: white;
   color: #d35266;
@@ -685,6 +708,11 @@ header #profile-image-container img {
 #hot-ads > div button:last-of-type {
   margin: 0 0 0 -3px;
   border-radius: 0 15px 15px 0;
+}
+
+#results-page main > div button:hover {
+  background-color: white;
+  color: #d35266;
 }
 
 .search#search .search-container > button {
@@ -715,6 +743,15 @@ header #profile-image-container img {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+#results-page main > div {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #88888869;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
 }
 
 .search#search > div {
@@ -926,15 +963,6 @@ footer .copy-rights p {
   text-align: left;
 }
 
-footer .categories > div {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-footer .categories > div a {
-  color: #888888;
-  margin: 2px 0;
-}
-
 #results-page {
   border: 1px solid #88888869;
   padding: 25px 0;
@@ -947,15 +975,6 @@ footer .categories > div a {
   #results-page {
     grid-template-columns: 1fr;
   }
-}
-
-#results-page main > div {
-  padding: 15px;
-  margin: 15px;
-  border: 1px solid #88888869;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 25px;
 }
 
 #results-page main > div:hover {
@@ -980,29 +999,6 @@ footer .categories > div a {
 
 #results-page main > div section h2 {
   margin-left: 0;
-}
-
-#results-page main > div button {
-  padding-top: 5px;
-  background-color: #d35266;
-  padding: 1em 1.5em;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  outline: none;
-  transition: all 0.5s ease-out;
-  text-transform: capitalize;
-  float: right;
-  margin: 5px;
-}
-
-#results-page main > div button:hover {
-  background-color: white;
-  color: #d35266;
-}
-
-aside ul {
-  padding: 15px;
 }
 
 aside ul li {
