@@ -205,6 +205,22 @@ table {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 15px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
 .products-show h2 {
   border-bottom: 1px solid #88888869;
   font-weight: normal;
@@ -264,9 +280,23 @@ table {
   margin: 0 auto;
 }
 
+.pagination span {
+  color: white;
+  border-radius: 5px;
+  background-color: #d35266;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
 .products-grid article > h3,
 .products-grid article > span {
   margin: 5px 15px;
+}
+
+.text-alignment > div {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .products-grid article div {
@@ -321,30 +351,14 @@ body {
     font-size: 10px;
     line-height: 2em;
   }
-}
 
-button {
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Gotham", sans-serif;
-  font-weight: bold;
-  text-transform: capitalize;
-  margin: 15px;
+  button {
+    cursor: pointer;
+  }
 }
 
 h1 {
   font-size: 4em;
-}
-
-h2 {
-  font-size: 1.8em;
 }
 
 a {
@@ -445,14 +459,6 @@ a {
   padding: 10px 0;
 }
 
-.pagination span {
-  color: white;
-  border-radius: 5px;
-  background-color: #d35266;
-  padding: 5px 10px;
-  margin: 5px;
-}
-
 header {
   justify-content: space-between;
   padding: 15px 0;
@@ -530,12 +536,6 @@ header #profile-image-container img {
   }
 }
 
-.text-alignment > div {
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
-}
-
 .search-input-container .search-container {
   margin: 0 auto;
   display: grid;
@@ -558,11 +558,8 @@ header #profile-image-container img {
 }
 
 .search-input-container .search-container > a {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
-  color: #383838;
-  background-color: white;
   box-shadow: none;
   text-transform: capitalize;
   padding: 15px 20px;
@@ -571,7 +568,6 @@ header #profile-image-container img {
 }
 
 .search-input-container .search-container > button {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
   color: #383838;
@@ -629,7 +625,7 @@ header #profile-image-container img {
     width: 90%;
   }
 }
- 
+
 @media screen and (max-width: 768px) {
   .search#search .search-container {
     grid-template-columns: 1fr;
@@ -639,11 +635,8 @@ header #profile-image-container img {
 }
 
 .search#search .search-container > a {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
-  color: #383838;
-  background-color: white;
   box-shadow: none;
   text-transform: capitalize;
   padding: 15px 20px;
@@ -652,7 +645,6 @@ header #profile-image-container img {
 }
 
 .search#search .search-container > button {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
   color: #383838;
@@ -698,11 +690,8 @@ header #profile-image-container img {
 }
 
 .search#results .search-container > a {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
-  color: #383838;
-  background-color: white;
   box-shadow: none;
   text-transform: capitalize;
   padding: 15px 20px;
@@ -711,7 +700,6 @@ header #profile-image-container img {
 }
 
 .search#results .search-container > button {
-  padding: 1em 1.5em;
   border: none;
   outline: none;
   color: #383838;
@@ -725,17 +713,10 @@ header #profile-image-container img {
   color: white;
 }
 
-.search#results .search-container {
-  margin: 25px 0;
-}
-
 .search#results > div {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
-}
-
-.search#results > div {
   padding: 15px 15%;
   text-align: left;
 }
@@ -763,7 +744,6 @@ header #profile-image-container img {
 
 #hot-ads h2 {
   max-width: 1140px;
-  margin: 0 auto;
   padding: 0 15px;
   margin: 20px auto;
   font-size: 1.8em;
@@ -839,7 +819,6 @@ header #profile-image-container img {
 }
 
 #hot-ads > div button {
-  padding-top: 5px;
   background-color: #d35266;
   padding: 1em 1.5em;
   border-radius: 5px;
