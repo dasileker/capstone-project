@@ -275,6 +275,10 @@ h2 {
   background-color: white;
 }
 
+.search-text img {
+  height: 100px;
+}
+
 .products-grid article img {
   width: 100%;
   margin: 0 auto;
@@ -644,7 +648,27 @@ header #profile-image-container img {
   color: white;
 }
 
+#hot-ads > div button {
+  background-color: #d35266;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease-out;
+  text-transform: capitalize;
+}
+
 .search#search .search-container > button {
+  border: none;
+  outline: none;
+  color: #383838;
+  background-color: white;
+  box-shadow: none;
+  padding: 15px 20px;
+}
+
+.search#results .search-container > button {
   border: none;
   outline: none;
   color: #383838;
@@ -656,6 +680,13 @@ header #profile-image-container img {
 .search#search .search-container > button:last-child {
   background-color: #383838;
   color: white;
+}
+
+#hot-ads > div {
+  grid-template-columns: 1.2fr 1fr;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .search#search > div {
@@ -699,15 +730,6 @@ header #profile-image-container img {
   color: white;
 }
 
-.search#results .search-container > button {
-  border: none;
-  outline: none;
-  color: #383838;
-  background-color: white;
-  box-shadow: none;
-  padding: 15px 20px;
-}
-
 .search#results .search-container > button:last-child {
   background-color: #383838;
   color: white;
@@ -719,10 +741,6 @@ header #profile-image-container img {
   height: 100%;
   padding: 15px 15%;
   text-align: left;
-}
-
-.search-text img {
-  height: 100px;
 }
 
 .search-text h1 {
@@ -748,13 +766,6 @@ header #profile-image-container img {
   margin: 20px auto;
   font-size: 1.8em;
   font-weight: normal;
-}
-
-#hot-ads > div {
-  grid-template-columns: 1.2fr 1fr;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 @media screen and (max-width: 992px) {
@@ -816,17 +827,6 @@ header #profile-image-container img {
   #hot-ads > div section div:last-of-type {
     align-self: center;
   }
-}
-
-#hot-ads > div button {
-  background-color: #d35266;
-  padding: 1em 1.5em;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  outline: none;
-  transition: all 0.5s ease-out;
-  text-transform: capitalize;
 }
 
 #hot-ads > div button:hover {
