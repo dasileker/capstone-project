@@ -2,7 +2,7 @@
 
 > This is my capstone project which is an online shop .
 
-![screenshot](./)
+![screenshot](img\screentshot.png)
 
 Additional description about the project and its features.
 
@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](
+[Live Demo Link](https://raw.githack.com/dasileker/capstone-project/featur/index.html)
 ## Getting Started
 
 Just clone the project and open `index.html` file in chrome.
