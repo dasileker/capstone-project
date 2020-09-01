@@ -525,8 +525,8 @@ footer .categories > div a {
   margin: 2px 0;
 }
 
-header nav ul li:hover a,
-header nav ul li:hover i {
+header nav ul li a:hover,
+header nav ul li i:hover {
   color: #d35266;
   text-decoration: none;
 }
