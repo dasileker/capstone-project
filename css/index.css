@@ -233,12 +233,15 @@ table {
     padding: 0 15px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .products-grid {
     grid-template-columns: 1fr;
   }
 
-
+  .bars-icon {
+    display: flex;
+  }
 }
 
 .products-grid > span {
@@ -318,15 +321,18 @@ body {
     line-height: 1.8em;
   }
 }
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 10px;
     line-height: 2em;
   }
 }
+
 button {
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -338,15 +344,19 @@ h6 {
   text-transform: capitalize;
   margin: 15px;
 }
+
 h1 {
   font-size: 4em;
 }
+
 h2 {
   font-size: 1.8em;
 }
+
 a {
   text-decoration: none;
 }
+
 .primary-btn {
   background-color: #d35266;
   padding: 1em 1.5em;
@@ -356,25 +366,32 @@ a {
   outline: none;
   transition: all 0.5s ease-out;
 }
+
 .primary-btn:hover {
   background-color: white;
   color: #d35266;
 }
+
 .uppercase {
   text-transform: uppercase;
 }
+
 .capitalize {
   text-transform: capitalize;
 }
+
 .flex-align-center {
   align-items: center;
 }
+
 .flex-justify-center {
   justify-content: center;
 }
+
 .flex-justify-around {
   justify-content: space-around;
 }
+
 .flex-justify-between {
   justify-content: space-between;
 }
