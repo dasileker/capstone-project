@@ -442,22 +442,9 @@ a {
   box-shadow: none;
 }
 
-.nextItem {
-  width: 50px;
-  height: 50px;
-  color: #d35266;
-  font-size: 4em;
-  padding: 16px 0 0 16px;
-  position: absolute;
-  top: 40%;
-  border-radius: 50%;
-  border: 1px solid #88888869;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 1615px) {
-  .nextItem {
-    display: none;
+  header nav {
+    display: flex;
   }
 }
 
