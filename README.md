@@ -13,8 +13,7 @@ Additional description about the project and its features.
 
 ## project discription
 
-in this project, I was asked to build an E-game website clone that contained popular video game and take the same layout of the <br>
-Behance website [Behance](https://www.behance.net/gallery/24796463/ZATTIX). so the main idea here is to test our knowledge in CSS and  HTML and Bootstrap.
+in this project, I was asked to build an E-game website clone that contained popular video game and take the same layout of the Behance website [Behance](https://www.behance.net/gallery/24796463/ZATTIX). so the main idea here is to test our knowledge in CSS and  HTML and Bootstrap.
 
 in my case I built the project just with two things the HTML and CSS, I was very challenging and of course, I was very excited too as you can see in this README.md file a link to my presentation video for the project and a screenshot for the final result of the page, and also the link for the project clone itself I hope you like my project and give a star to it.
 
