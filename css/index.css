@@ -496,6 +496,10 @@ header nav img#logo {
   header nav img#logo {
     height: 40px;
   }
+
+  header nav ul li a {
+    display: none;
+  }
 }
 
 aside ul {
@@ -566,6 +570,7 @@ header #profile-image-container img {
     grid-template-rows: repeat(4, 1fr);
     row-gap: 5px;
   }
+  
 }
 
 .search-input-container .search-container > a {
@@ -769,6 +774,31 @@ header #profile-image-container img {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     row-gap: 5px;
+  }
+
+  .search#results .search-text img,
+  .search#results .search-text h1 {
+    height: 50px;
+    margin-left: 110px;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .search#results .search-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 5px;
+  }
+
+  .search#results .search-text img {
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .search#results .search-text h1 {
+    font-size: 9px;
+    margin-left: 45px;
   }
 }
 
