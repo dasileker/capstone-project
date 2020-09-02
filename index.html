@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Capstone Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container-full-width dark-bg">
+      <div class="container">
+        <header class="flex-container flex-align-center">
+          <nav class="flex-container flex-align-center">
+            <img id="logo" src="./img/Riot.svg" alt="E-games" />
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fas fa-home"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-book-open"></i>
+                  <span>colections</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span>purchase list</span>
+                </a>
+              </li>
+            </ul>
+            <button class="primary-btn uppercase">
+              post an ad
+            </button>
+          </nav>
+          <div id="profile" class="flex-container flex-align-center">
+            <i class="fas fa-inbox messages-number"></i>
+
+            <div
+              id="profile-image-container"
+              class="flex-container flex-align-center"
+            >
+            
+              <span class="capitalize">Zerradi Amine</span>
+              <img src="./img/log.jpg" alt="profile image" />
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div id="search" class="search">
+      <div class="flex-container">
+        <div class="search-text">
+          <img src="./img/Riot.svg" alt="Riot_games"/>
+          <h1>buy your favorite games online</h1>
+        </div>
+        <div class="search-container">
+          <button class="capitalize">
+            ▼ all departments
+          </button>
+          <input type="text" placeholder="What game are you looking for?" />
+          <input type="text" placeholder="Region" />
+          <a href="./result.html">
+            search
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section id="hot-ads">
+        <h2>hot ads</h2>
+        <div class="grid-container">
+          <img src="./img/halo.webp" alt="" />
+          <section>
+            <h2>HALO WARS</h2>
+            <p>
+              The Covenant has declared war on humanity, and Harvest is the first battleground. Set 21 years before the events of
+              Halo: Combat Evolved, Halo Wars is an exciting real-time strategy game set in the legendary Halo universe. In this
+              unique installment in the Halo franchise, players experience the epic battles that marked the beginning of the Covenant
+              War. With the UNSC Spirit of Fire at their disposal, players fight in the intense and enormous conflicts that would
+              define humanity's relentless heroism in its darkest hour.
+            </p>
+            <div>
+              <span
+                ><strong>by:</strong>
+                <a href="#">Microsoft Xbox one</a>
+              </span>
+              <span
+                ><strong>playable on:</strong>
+                Microsoft
+              </span>
+            </div>
+            <div>
+              <button>19.99$</button>
+              <button>add to cart</button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <div id="products" class="darker-bg">
+        <section class="products-show">
+          <h2><i class="fas fa-newspaper"></i> popular games</h2>
+          <div class="products-grid">
+            <article>
+              <img src="./img/modern.jpg" alt=""/>
+              <h3>Modern combat 5</h3>
+              <span>Xbox one</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>200$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/seigefall.jpg" alt="" />
+              <h3>seigefall</h3>
+              <span>Xbox one</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>100$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/wildblood.jpg" alt="" />
+              <h3>wildblood</h3>
+              <span>Gamloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>90$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/hunters.jpg" alt="" />
+              <h3>Dungeon hunters</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>40$</span>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="products-show">
+          <h2><i class="fas fa-newspaper"></i> new games</h2>
+          <div class="products-grid">
+
+
+
+            <article>
+              <img src="./img/order.jpg" alt=""/>
+              <h3>Order & Chaos</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/gangester.jpg" alt="" />
+              <h3>Gangstar Vegas</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/nova.jpg" alt="" />
+              <h3>N.O.V.A</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/arms.jpg" alt="" />
+              <h3>BROTHERS IN ARMS</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+
+          </div>
+        </section>
+        <section class="products-show">
+          <h2><i class="fas fa-newspaper"></i> old games</h2>
+          <div class="products-grid">
+
+            <article>
+              <img src="./img/versus.jpg" alt="" />
+              <h3>MODERN COMBAT VERSUS</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>80$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/zombie.jpg" alt="" />
+              <h3>ZOMBIE ANARCHY</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/guns.jpg" alt="" />
+              <h3>SIX GUNS</h3>
+              <span>Gameloft</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+            <article>
+              <img src="./img/product1.jfif" alt="" />
+              <h3>ghost of tsushima</h3>
+              <span>ps4</span>
+              <div class="flex-container">
+                <button>+</button>
+                <span>60$</span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="container-full-width">
+      <div class="grid-container">
+        <div class="copy-rights">
+          <img src="./img/Riot.svg" alt="logo-text-only" />
+          <p>
+            The Covenant Has Declared War On Humanity, And Harvest Is The First Battleground. Set 21 Years Before The Events Of
+            Halo: Combat Evolved, Halo Wars Is An Exciting Real-Time Strategy Game Set In The Legendary Halo Universe. In This
+            Unique Installment In The Halo Franchise, Players Experience The Epic Battles That Marked The Beginning Of The Covenant
+            War. With The UNSC Spirit Of Fire At Their Disposal, Players Fight In The Intense And Enormous Conflicts That Would
+            Define Humanity's Relentless Heroism In Its Darkest Hour.
+          </p>
+        </div>
+        <div class="categories">
+          <h2>categories</h2>
+          <div class="grid-container">
+            <ul>
+              <li><a href="#">ARCADE</a></li>
+              <li><a href="#">ACTION</a></li>
+              <li><a href="#">PUZLE</a></li>
+              <li><a href="#">FANTAZY</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="categories">
+          <h2>navigation</h2>
+          <div class="grid-container">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">colections</a></li>
+              <li><a href="#">purchase list</a></li>
+              <li><a href="#">post an ad</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyrights">
+      <p>copyrights reserved to Zerradi AMINE @2020</p>
+    </div>
+  </body>
+</html>
